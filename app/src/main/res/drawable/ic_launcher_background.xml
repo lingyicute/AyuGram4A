@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 橙色渐变背景（自适应图标会由启动器裁剪为圆角矩形 / 圆形等形状） -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108">
+                <item android:offset="0" android:color="#FFFF7A18" />
+                <item android:offset="1" android:color="#FFFFB347" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- 轻微高光装饰 -->
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M0,0h108v54C80,66 40,66 0,54z" />
+</vector>

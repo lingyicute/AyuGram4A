@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CF Tunnel</string>
+    <string name="add_tunnel">添加隧道</string>
+    <string name="no_tunnels">还没有隧道</string>
+    <string name="no_tunnels_hint">点击右下角按钮添加一条 Cloudflare TCP 隧道，\n将远端服务映射到本机端口。</string>
+    <string name="hint_name">名称（可选）</string>
+    <string name="hint_hostname">远端主机名</string>
+    <string name="helper_hostname">例如 ssh.example.com（Cloudflare Tunnel 公开主机名）</string>
+    <string name="hint_port">本地端口</string>
+    <string name="helper_port">将在 127.0.0.1:端口 上监听</string>
+    <string name="versions">版本管理</string>
+    <string name="refresh">刷新</string>
+    <string name="battery">忽略电池优化</string>
+    <string name="about">关于</string>
+    <string name="more">更多</string>
+    <string name="delete">删除</string>
+    <string name="download_preparing">正在获取版本信息…</string>
+    <string name="channel_name">隧道服务</string>
+</resources>
