@@ -272,7 +272,7 @@ public class TunnelService extends Service {
 
         return new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_stat_tunnel)
-                .setContentTitle(n == 0 ? "CF Tunnel" : n + " 个隧道运行中")
+                .setContentTitle(n == 0 ? getString(R.string.app_name) : n + " 个隧道运行中")
                 .setContentText(text)
                 .setStyle(new NotificationCompat.BigTextStyle().bigText(text))
                 .setContentIntent(open)
