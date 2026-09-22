@@ -1,4 +1,4 @@
-# CF Tunnel (Android)
+# Cloudflared Helper Android
 
 一个使用 **纯 Java + Material You (Material 3)** 编写的 Android 客户端，通过
 `cloudflared access tcp` 将 Cloudflare Tunnel 暴露的远端 TCP 服务映射到本机端口。
@@ -44,3 +44,22 @@ app/src/main/java/org/lyi/cha/
   Tunnel.java / TunnelStore.java   隧道模型与持久化
   TunnelAdapter.java / VersionAdapter.java
 ```
+
+## 🗂️ License
+
+This program is released under the GNU General Public License v3.0 (GPLv3).
+
+Copyright (C) 2026 lingyicute.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see https://www.gnu.org/licenses.
