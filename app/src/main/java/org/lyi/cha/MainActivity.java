@@ -383,8 +383,8 @@ public class MainActivity extends AppCompatActivity implements TunnelAdapter.Cal
         String msg = "通过 cloudflared access tcp 将 Cloudflare Tunnel 暴露的 TCP 服务映射到本机端口。\n\n"
                 + "cloudflared 版本：" + (active == null ? "未安装" : active) + "\n"
                 + "设备架构：" + CloudflaredManager.archName() + "\n"
-                + "安装目录：" + mgr.baseDir().getAbsolutePath() + "\n"
-                + "已安装版本数：" + mgr.installedVersions().size();
+                + "已安装版本数：" + mgr.installedVersions().size() + "\n"
+                + "版本安装目录：" + mgr.baseDir().getAbsolutePath();
         new MaterialAlertDialogBuilder(this)
                 .setTitle(R.string.app_name)
                 .setIcon(R.drawable.ic_app_logo)

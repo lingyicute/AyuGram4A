@@ -95,7 +95,7 @@ public class VersionActivity extends AppCompatActivity implements VersionAdapter
         header.setText("架构: " + CloudflaredManager.archName()
                 + "  ·  当前使用: " + (active == null ? "未安装" : active)
                 + "  ·  本地已安装 " + installed.size() + " 个版本"
-                + (remote.isEmpty() ? "\n下拉菜单点击刷新以获取在线版本列表" : ""));
+                + (remote.isEmpty() ? "\n点击刷新以获取在线版本列表" : ""));
     }
 
     private void fetchRemote() {
