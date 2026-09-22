@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.cftunnel.app'
+    namespace 'org.lyi.cha'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.cftunnel.app"
+        applicationId "org.lyi.cha"
         minSdk 26
         // 注意：targetSdk 必须 < 29，否则 Android 10+ 的 SELinux 策略（untrusted_app_29+）
         // 禁止执行应用私有目录中的二进制文件（W^X），cloudflared 将无法运行。

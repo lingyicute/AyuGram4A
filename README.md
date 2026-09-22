@@ -34,7 +34,7 @@ Release APK 并上传为 Artifacts；推送 `v*` 标签时自动发布 Release�
 ## 目录结构
 
 ```
-app/src/main/java/com/cftunnel/app/
+app/src/main/java/org/lyi/cha/
   App.java                 Application，启用动态取色
   MainActivity.java        隧道列表 / 添加编辑 / 首次下载 / 更新检查
   VersionActivity.java     cloudflared 版本管理
