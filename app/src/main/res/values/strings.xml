@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CF Tunnel</string>
+    <string name="app_name">Cloudflared Helper</string>
     <string name="add_tunnel">添加隧道</string>
     <string name="no_tunnels">还没有隧道</string>
     <string name="no_tunnels_hint">点击右下角按钮添加一条 Cloudflare TCP 隧道，\n将远端服务映射到本机端口。</string>
